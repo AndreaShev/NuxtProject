@@ -1,10 +1,13 @@
+
 # Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Описание
 
-## Setup
+Этот проект является минимальным стартером для приложений на Nuxt.js. Он предоставляет базовую структуру для быстрого старта разработки.
 
-Make sure to install dependencies:
+## Установка
+
+Убедитесь, что у вас установлены все зависимости:
 
 ```bash
 # npm
@@ -20,9 +23,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Разработка
 
-Start the development server on `http://localhost:3000`:
+Запустите сервер разработки на `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,9 +41,9 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Сборка для продакшена
 
-Build the application for production:
+Соберите приложение для продакшена:
 
 ```bash
 # npm
@@ -56,7 +59,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Локально предпросмотрите продакшен сборку:
 
 ```bash
 # npm
@@ -72,4 +75,12 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Вклад в проект
+
+Если вы хотите внести вклад в проект, пожалуйста, создайте форк репозитория и отправьте pull request.
+
+## Лицензия
+
+MIT
+
+---
