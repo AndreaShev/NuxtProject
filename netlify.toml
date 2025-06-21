@@ -7,3 +7,9 @@ functions = ".output/server/netlify/functions"
 from = "/*"
 to = "/index.html"
 status = 200
+
+# Для обработки API-роутов
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/server/:splat"
+  status = 200
