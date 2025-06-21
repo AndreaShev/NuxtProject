@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "nitropack": "^2.11.12",
     "nuxt": "^3.17.5",
     "usebootstrap": "^3.5.107",
     "vue": "^3.5.16",
@@ -17,5 +18,10 @@
   },
   "devDependencies": {
     "@netlify/functions": "^4.1.6"
+  },
+   "overrides": {
+    "c12": "^1.8.0",
+    "unimport": "^1.4.0",
+    "defu": "^6.1.2"
   }
 }
